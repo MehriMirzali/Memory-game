@@ -1,0 +1,42 @@
+
+#time {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+#time span{
+    color: #2f006d;
+    border-radius: 5px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: auto;
+}
+
+body{
+    height:100vh ;
+    display: flex;
+    background: linear-gradient(to bottom right,#9256e0, #ff9768);
+    background-repeat: no-repeat;
+}
+table{
+margin: auto;
+}
+table,td{
+    border: 3px solid black;
+    border-collapse:collapse;
+}
+td{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font: normal 50px Arial;
+    cursor: pointer;
+    user-select: none;
+}
+td img{
+    height: 130px;
+    width: 130px;
+}
